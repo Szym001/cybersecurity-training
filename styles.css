@@ -62,11 +62,17 @@ h1 {
 iframe {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 500px;
   border: none;
   border-radius: 3px;
   background: #000;
   margin: 0 0 24px;
+}
+
+@media (max-width: 700px) {
+  iframe {
+    height: 260px;
+  }
 }
 
 .quiz {
