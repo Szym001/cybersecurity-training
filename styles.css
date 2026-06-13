@@ -59,11 +59,9 @@ h1 {
   line-height: 1.15;
 }
 
-iframe {
+video {
   display: block;
   width: 100%;
-  height: 500px;
-  border: none;
   border-radius: 3px;
   background: #000;
   margin: 0 0 24px;
@@ -141,16 +139,12 @@ button:hover {
   letter-spacing: 2px;
 }
 
-.locked iframe,
+.locked video,
 .locked .quiz {
   display: none;
 }
 
 @media (max-width: 700px) {
-  iframe {
-    height: 260px;
-  }
-
   .site-header {
     padding: 30px 18px 34px;
   }
